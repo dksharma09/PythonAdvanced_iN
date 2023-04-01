@@ -1,0 +1,19 @@
+1. What is the concept of an abstract superclass?
+>>
+An abstract class in Python is typically created to declare a set of methods that must be created in any child class built on top of this abstract class.
+
+2. What happens when a class statement's top level contains a basic assignment statement?
+>>
+An assignment statement sets the current value of a variable, field, parameter, or element. It is called a class variable not an instance variable.
+
+3. Why does a class need to manually call a superclass's __init__ method?
+>>
+To provide arguments to superclass. It's because one needs to define something that is NOT done in the base-class' __init__.
+
+4. How can you augment, instead of completely replacing, an inherited method?
+>>
+A more sophisticated way to augment an inherited method involves forwarding. Message forwarding allows you to augment an inherited method in such a way that it can perform its inherited action and some new action.
+
+5. How is the local scope of a class different from that of a function?
+>>
+If you assign a value to a name inside a function, then that name will have a local Python scope. In contrast, if you assign a value to a name outside of all functions—say, at the top level of a module—then that name will have a global Python scope.
