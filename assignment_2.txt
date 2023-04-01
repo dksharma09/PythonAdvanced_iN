@@ -1,0 +1,35 @@
+Q1. What is the relationship between classes and modules?
+>>
+Module is actually a file which mys contain multiple classes and functions or simply functions while classes are used to create reusabilty and may contain public, protected and private variables and functions.
+
+Q2. How do you make instances and classes?
+>>
+To create instances of a class, you call the class using class name and pass in whatever arguments its __init__ method accepts while in classes creation we use variable, functions and constructors.
+
+Q3. Where and how should be class attributes created?
+>>
+To define a class attribute, you place it outside of the __init__() method.
+
+Q4. Where and how are instance attributes created?
+>>
+Instance attributes are defined in the constructor. Defined inside a constructor using the pointer. Shared across all objects.
+
+Q5. What does the term "self" in a Python class mean?
+>>
+Self is a pointer that point towards the instance.
+
+Q6. How does a Python class handle operator overloading?
+>>
+The operator overloading in Python means provide extended meaning beyond their predefined operational meaning. Such as, we use the "+" operator for adding two integers as well as joining two strings or merging two lists. We can achieve this as the "+" operator is overloaded by the "int" class and "str" class.
+
+Q7. When do you consider allowing operator overloading of your classes?
+>>
+Consider that we have two objects which are a physical representation of a class (user-defined data type) and we have to add two objects with binary ‘+’ operator it throws an error, because compiler don’t know how to add two objects. So we define a method for an operator and that process is called operator overloading.
+
+Q8. What is the most popular form of operator overloading?
+>>
+The most frequent instance is the adding up operator '+', where it can be used for the usual addition and also for combining two different strings. 
+
+Q9. What are the two most important concepts to grasp in order to comprehend Python OOP code?
+>>
+Both inheritance and polymorphism are fundamental concepts of object oriented programming. These concepts help us to create code that can be extended and easily maintainable.
